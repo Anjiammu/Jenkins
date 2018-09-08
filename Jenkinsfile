@@ -3,14 +3,14 @@ pipeline {
     stages {
 
 stage ('Building'){
-   agent {label 'Linux_Slave'}
+   agent {label 'Linux_slave2'}
     steps{
         echo "Building............"
     }
    }   
 
 stage ('Testing'){
-   agent {label 'Linux_slave2'}
+   agent {label 'Linux_Slave'}
     steps{
         echo "Testing............"
     }
