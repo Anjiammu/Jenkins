@@ -10,7 +10,7 @@ stage ('Building'){
    }   
 
 stage ('Testing'){
-   agent {label 'Linux_Slave'}
+   agent {label 'Linux_slave2'}
     steps{
         echo "Testing............"
     }
