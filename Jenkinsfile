@@ -12,7 +12,7 @@ stage ('Building'){
 stage ('Testing'){
    agent {label 'Linux_slave2'}
     steps{
-        echo "Testing............................."
+        echo "Testing.................the Build and generating the war file for the same............"
     }
     }
 }
